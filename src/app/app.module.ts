@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { shorten } from './shorten.pipe';
 
 
 @NgModule({
-  declarations: [
+  declarations: [shorten,
+
     AppComponent
   ],
   imports: [
